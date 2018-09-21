@@ -13,11 +13,13 @@ INSERT INTO `orders`(`oid`, `ordertime`, `total`, `state`, `address`, `name`, `t
 
 INSERT INTO `user`(`uid`, `username`, `password`, `name`, `email`, `telephone`, `birthday`, `sex`, `state`, `code`) VALUES ([value-1],[value-2],[value-3],[value-4],[value-5],[value-6],[value-7],[value-8],[value-9],[value-10])
 
-#表結構
+### 表結構  
+
 product pid PK  cid FK(category)   產品-分類
 category cid PK   分類
 orderitem  oid PK  pid FK(product )   訂單-產品
 orders   uid FK(user)  oid FK(orderitem)    訂單總匯-用戶
 user uid  用戶
 
-開始Start:  web下   index.jsp
+### 開始Start: 
+web下   index.jsp

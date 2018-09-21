@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="webFeature:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/webFeature_war_exploded/WEB-INF/classes</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="webFeature/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="webFeature" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="javax.annotation" />
+          <element id="library" level="project" name="javax.jms" />
+          <element id="library" level="project" name="javax.persistence" />
+          <element id="library" level="project" name="javax.resource" />
+          <element id="library" level="project" name="javax.transaction" />
+          <element id="library" level="project" name="commons-io-1.4" />
+          <element id="library" level="project" name="commons-fileupload-1.2.1" />
+        </element>
+      </element>
+      <element id="directory" name="folder" />
+    </root>
+  </artifact>
+</component>

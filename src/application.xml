@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+  <!--beanfactory  反射創建對象-->
+
+  <bean id="CategoryDao" class="dao.daoImp.CategoryDaoImp"/>
+  <bean id="UserDao" class="dao.daoImp.UserDaoImp"/>
+  <bean id="ProductDao" class="dao.daoImp.ProductDaoImp"/>
+  <bean id="OrderDao" class="dao.daoImp.OrderDaoImp"/>
+
+
+  <bean id="UserService" class="service.serviceImp.UserServiceImp"/>
+  <bean id="ProductService" class="service.serviceImp.ProductServiceImp"/>
+  <bean id="OrderService" class="service.serviceImp.OrderServiceImp"/>
+  <bean id="CategoryService" class="service.serviceImp.CategoryServiceImp"/>
+
+</beans>

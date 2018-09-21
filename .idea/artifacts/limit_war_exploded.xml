@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="limit:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/webFeature_war_exploded/WEB-INF/classes</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="limit/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="limit" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

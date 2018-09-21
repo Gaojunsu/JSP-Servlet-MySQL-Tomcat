@@ -2,7 +2,7 @@
 
 一個入門級JAVA新手學習項目實例   
 
-### sql語句 自備基礎數據
+### sql語句 自備基礎數據:
 INSERT INTO `product`(`pid`, `pname`, `market_price`, `shop_price`, `pimage`, `pdate`, `is_hot`, `pdesc`, `pflag`, `cid`) VALUES ([value-1],[value-2],[value-3],[value-4],[value-5],[value-6],[value-7],[value-8],[value-9],[value-10])
 
 INSERT INTO `category`(`cid`, `cname`) VALUES ([value-1],[value-2])
@@ -13,7 +13,7 @@ INSERT INTO `orders`(`oid`, `ordertime`, `total`, `state`, `address`, `name`, `t
 
 INSERT INTO `user`(`uid`, `username`, `password`, `name`, `email`, `telephone`, `birthday`, `sex`, `state`, `code`) VALUES ([value-1],[value-2],[value-3],[value-4],[value-5],[value-6],[value-7],[value-8],[value-9],[value-10])
 
-### 表結構  
+### 表結構:  
 
 product pid PK  cid FK(category)   產品-分類
 category cid PK   分類
